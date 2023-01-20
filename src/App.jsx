@@ -30,9 +30,7 @@ function App() {
     <div className="App">
       <div className="col">
         <h1>React flow</h1>
-      </div>
 
-      <div className="col">
         <div className="flow-container">
           <ReactFlow
             nodes={nodes}
@@ -42,7 +40,7 @@ function App() {
             onConnect={onConnect}
             fitView
           >
-            <MiniMap />
+            {/* <MiniMap /> */}
             <Controls />
             <Background />
           </ReactFlow>
